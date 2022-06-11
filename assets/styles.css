@@ -1,0 +1,24 @@
+body{
+    font-family: verdana;
+}
+
+#pager{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+#pager li{
+    padding: 0.25rem;
+}
+
+#pager li.selected{
+    background-color: dodgerblue;
+    border-radius: 0.25rem;
+    color: cornsilk;
+}
+
+
+#pager li.selected a{
+    color: cornsilk;
+}
